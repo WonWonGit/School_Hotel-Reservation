@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+ul {
+  margin-top: 2px;
+  list-style: none;
+}
+
+ul > li {
+  text-align: center;
+  float: left;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333;
+}
+
+ul > li:hover {
+  transition-delay: 4.8s;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.head_img {
+  text-align: center;
+}
+.header {
+  position: relative;
+}
+.nav {
+  margin-top: -22px;
+  position: absolute;
+  left: calc(50% - 140px);
+}
+.nav ul {
+  width: 620px;
+}
+/* nav > ul 이 지정안되있어서 자동으로 너비값이 지정되 커뮤니티서브메뉴가 안떴었다. */
+
+.nav ul li {
+  font-size: 13.8px;
+  font-weight: 550;
+}
+.space > ul {
+  position: absolute;
+  display: none;
+  margin-left: -190px;
+}
+.resalvation > ul {
+  position: absolute;
+  display: none;
+  margin-left: -19px;
+}
+.community > ul {
+  position: absolute;
+  display: none;
+  margin-left: -26px;
+}
+
+.space > ul > li {
+  padding: 6px;
+  color: #333;
+  transition-timing-function: 1s ease;
+  transition-delay: 7s;
+  border: rgba(240, 240, 240, 0.966);
+  background-color: rgba(240, 240, 240, 0.966);
+}
+.resalvation > ul > li {
+  padding: 6px;
+  color: #333;
+  transition-timing-function: 1s ease;
+  transition-delay: 7s;
+  border: rgba(240, 240, 240, 0.966);
+  background-color: rgba(240, 240, 240, 0.966);
+}
+.community > ul > li {
+  padding: 6px;
+  color: #333;
+  transition-timing-function: 1s ease;
+  transition-delay: 7s;
+  border: rgba(240, 240, 240, 0.966);
+  background-color: rgba(240, 240, 240, 0.966);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #333;
+  font-weight: bold;
+}
+.space ul li a {
+  filter: blur(0.7px);
+}
+.resalvation ul li a {
+  filter: blur(0.7px);
+}
+.community ul li a {
+  filter: blur(0.7px);
+}
+
+.space ul li a:hover {
+  text-decoration: none;
+  filter: none;
+  transition: 0.6s;
+}
+.resalvation ul li a:hover {
+  text-decoration: none;
+  filter: none;
+  transition: 0.6s;
+}
+.community ul li a:hover {
+  text-decoration: none;
+  filter: none;
+  transition: 0.6s;
+}
+
+.space:hover > ul {
+  display: block;
+}
+.resalvation:hover > ul {
+  display: block;
+}
+.community:hover > ul {
+  display: block;
+}
+/* header menu 끝*********************************** */
+
+/* INTRO BODY 끝**************************************** */
+
+#box1 {
+  background-color: #fff;
+  width: 1200px;
+  height: 50px;
+  margin-bottom: 50px;
+  margin-top: -53px;
+}
+#box1 div {
+  padding-right: 7px;
+  float: left;
+  font-size: 13px;
+  color: #333;
+}
+.logo {
+  width: 60px;
+  float: left;
+  margin-right: -88px;
+  padding-left: 13px;
+}
+
+.logo img {
+  width: 118px;
+}
+
+.logo {
+  width: 270px;
+  float: left;
+}
+.location {
+  width: 270px;
+  float: left;
+}
+.money {
+  width: 270px;
+  float: left;
+}
+
+.resalvation2 {
+  width: 270px;
+  float: left;
+}
+
+#box1 h4 {
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 6px;
+  margin-bottom: -11px;
+}
+
+#box2 p {
+  font-size: 10px;
+  height: 60px;
+  background-color: #333;
+  color: whitesmoke;
+  margin-bottom: -20px;
+}
+
+#box2 span {
+  font-size: 10px;
+  font-weight: bolder;
+}
